@@ -1,0 +1,31 @@
+{
+  "model": "random_forest",
+  "version": 3,
+  "features": [
+    "hour",
+    "weekday_number",
+    "month",
+    "latitude",
+    "longitude",
+    "urban_or_rural_area",
+    "road_type",
+    "speed_limit",
+    "light_conditions",
+    "weather_conditions",
+    "road_surface_conditions",
+    "number_of_vehicles",
+    "temperature_c",
+    "precipitation_mm",
+    "wind_speed_kmh"
+  ],
+  "labels": [
+    "Fatal",
+    "Serious",
+    "Slight"
+  ],
+  "accuracy": 0.6172,
+  "macro_f1": 0.3921,
+  "recall_fatal": 0.1945,
+  "recall_serious": 0.4126,
+  "recall_slight": 0.6854
+}

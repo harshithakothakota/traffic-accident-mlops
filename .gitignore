@@ -1,0 +1,11 @@
+.env
+.venv/
+.venv-airflow/
+airflow_home/
+data/
+mlruns/
+mlflow.db
+__pycache__/
+.pgenv/
+.pgdata/
+models/model.joblib
